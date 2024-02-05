@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const User = ({ user }) => {
     const { id, name, email, phone } = user;
     return (
-        <div className='border-solid border-2 border-indigo-600 rounded-lg pt-6 pb-6 '>
+        <div className='bg-blue-200 rounded-lg pt-6 pb-6 '>
             <div className='mb-3'>
                 <p className='text-4xl mb-1'>{name}</p>
                 <p className='text-xl'>Email: {email}</p>
